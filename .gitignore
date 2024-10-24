@@ -1,0 +1,7 @@
+.idea/
+*.iml
+*.rar
+target/
+other/
+files/
+allure_backup/
