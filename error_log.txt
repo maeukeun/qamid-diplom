@@ -1,0 +1,141 @@
+--------- beginning of main
+10-25 11:51:51.099 10103 11977 12025 D EGL_emulation: eglMakeCurrent: 0x7922c4c7b860: ver 3 1 (tinfo 0x7922c4d130a0)
+10-25 11:51:51.104 10146 14897 14939 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+--------- beginning of system
+10-25 11:51:51.108  1000  2143  3084 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=ru.iteco.fmhandroid/.ui.AppActivity} from uid 10146
+10-25 11:51:51.117  1000  2143  2521 W ActivityTaskManager: Finishing task with all activities already finished
+10-25 11:51:51.117  1000  2143  2521 W ActivityTaskManager: Duplicate finish request for ActivityRecord{6eaf662 u0 ru.iteco.fmhandroid.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity t752 f}
+10-25 11:51:51.122  1000  2143  2170 E system_server: Invalid ID 0x00000000.
+10-25 11:51:51.126  1000  2143  4689 W InputReader: Device has associated, but no associated display id.
+10-25 11:51:51.128  1000  2143  4689 I chatty  : uid=1000(system) Binder:2143_11 identical 38 lines
+10-25 11:51:51.128  1000  2143  4689 W InputReader: Device has associated, but no associated display id.
+10-25 11:51:51.129 10146 14897 14897 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@2beb469
+10-25 11:51:51.130 10115 12076 13113 W LocationOracle: No location history returned by ContextManager
+10-25 11:51:51.140 10146 14897 14897 D LifecycleMonitor: Lifecycle status change: ru.iteco.fmhandroid.ui.AppActivity@9052e25 in: PRE_ON_CREATE
+10-25 11:51:51.140 10146 14897 14897 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+10-25 11:51:51.151 10115 12076 12131 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+10-25 11:51:51.156 10102  2824 15069 W ctxmgr  : [AclManager] No 3 for (accnt=account#-517948760#, com.google.android.gms(10102):UserVelocityProducer, vrsn=202414023, 0, 3pPkg = null ,  3pMdlId = null ,  pid = 2824). Was: 3 for 1, account#-517948760# [CONTEXT service_id=47 ]
+10-25 11:51:51.158 10146 14897 14897 D LifecycleMonitor: Lifecycle status change: ru.iteco.fmhandroid.ui.AppActivity@9052e25 in: CREATED
+10-25 11:51:51.158 10146 14897 14897 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=ru.iteco.fmhandroid.ui.AppActivity@9052e25
+10-25 11:51:51.179 10115 12076 12131 I AudioController: Created new AudioSource
+10-25 11:51:51.181 10102  2824 15054 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+10-25 11:51:51.181 10115 12076 12131 I MicroDetectionWorker: onReady
+10-25 11:51:51.196 10115 12076 13113 I MicroRecognitionRunner: Starting detection.
+10-25 11:51:51.196 10115 12076 13113 I MultipleReaderAudioSrc: Using micInputStream
+10-25 11:51:51.197 10115 12076 14959 I MicrophoneInputStream: mic_starting  SR : 16000 CC : 16 SO : 1999
+10-25 11:51:51.222  1041  1787 15113 I AudioFlinger: AudioFlinger's thread 0x71171d3ecd00 tid=15113 ready to run
+10-25 11:51:51.228  1000  2143  3084 I AudioService.RecordingActivityMonitor: rec update riid:799 uid:10115 session:793 src:HOTWORD pack:com.google.android.googlequicksearchbox
+10-25 11:51:51.229 10115 12076 14959 I MicrophoneInputStream: mic_started  SR : 16000 CC : 16 SO : 1999
+10-25 11:51:51.253  1000  2143  2170 W InputReader: Device has associated, but no associated display id.
+10-25 11:51:51.253  1000  2143  2170 I chatty  : uid=1000(system) android.anim identical 18 lines
+10-25 11:51:51.253  1000  2143  2170 W InputReader: Device has associated, but no associated display id.
+10-25 11:51:51.259 10115 12076 12131 I MicroDetector: Keeping mic open: false
+10-25 11:51:51.260 10115 12076 12265 I AudioController: internalShutdown
+10-25 11:51:51.260 10115 12076 15046 I MicroRecognitionRunner: Stopping hotword detection.
+10-25 11:51:51.261 10115 12076 15107 I DeviceStateChecker: DeviceStateChecker cancelled
+10-25 11:51:51.268 10147 15003 15034 D EGL_emulation: eglMakeCurrent: 0x79235460cec0: ver 3 1 (tinfo 0x7923547311a0)
+10-25 11:51:51.270  1000  2143  2178 I ActivityTaskManager: Displayed ru.iteco.fmhandroid/.ui.AppActivity: +22ms
+10-25 11:51:51.276 10146 14897 14897 D LifecycleMonitor: Lifecycle status change: ru.iteco.fmhandroid.ui.AppActivity@9052e25 in: STARTED
+10-25 11:51:51.276 10146 14897 14897 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=ru.iteco.fmhandroid.ui.AppActivity@9052e25
+10-25 11:51:51.277 10146 14897 14897 D LifecycleMonitor: Lifecycle status change: ru.iteco.fmhandroid.ui.AppActivity@9052e25 in: RESUMED
+10-25 11:51:51.277 10146 14897 14897 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=ru.iteco.fmhandroid.ui.AppActivity@9052e25
+10-25 11:51:51.279 10115 12076 12265 I MicrophoneInputStream: mic_close  SR : 16000 CC : 16 SO : 1999
+10-25 11:51:51.280 10115 12076 12265 E AudioSource: Stop listening is called on already closed AudioSource
+10-25 11:51:51.284 10115 12076 13113 I MicroRecognitionRunner: Detection finished
+10-25 11:51:51.289 10103 11977 12025 D EGL_emulation: eglMakeCurrent: 0x7922c4c7b860: ver 3 1 (tinfo 0x7922c4d130a0)
+10-25 11:51:51.292 10115 12076 12124 D EGL_emulation: eglMakeCurrent: 0xe391b200: ver 3 1 (tinfo 0xe390fd40)
+10-25 11:51:51.306  1000  2143  6147 D HostConnection: HostConnection::get() New Host Connection established 0x79226699ecc0, tid 6147
+10-25 11:51:51.314  1000  2143  6147 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_sync_buffer_data GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1 
+10-25 11:51:51.315  1000  1777  6233 I chatty  : uid=1000(system) HwBinder:1777_3 expire 1 line
+10-25 11:51:51.316  1000  2143  6147 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+10-25 11:51:51.336  1000  2143  6147 D EGL_emulation: eglCreateContext: 0x79226699eea0: maj 3 min 1 rcv 4
+10-25 11:51:51.337 10146 14897 14946 D EGL_emulation: eglMakeCurrent: 0x7922c311bac0: ver 3 1 (tinfo 0x7922c3110e40)
+10-25 11:51:51.378 10102  2824  2824 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+10-25 11:51:51.385 10102  2824 15110 I PlacesLogger: [PlaceInferenceEngine]: [anon] Changed inference mode: 0 [CONTEXT service_id=253 ]
+10-25 11:51:51.388 10102  2824 15101 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+10-25 11:51:51.390 10109  2334  2356 I ndroid.systemu: NativeAlloc concurrent copying GC freed 1668(159KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 5871KB/11MB, paused 6.090ms total 102.770ms
+10-25 11:51:51.390 10102  2824  2824 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+10-25 11:51:51.391 10102  2824 15116 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+10-25 11:51:51.395  1000  2143  6147 D EGL_emulation: eglMakeCurrent: 0x79226699eea0: ver 3 1 (tinfo 0x792275d9bc20)
+10-25 11:51:51.395 10146 14897 14910 I teco.fmhandroi: NativeAlloc concurrent copying GC freed 67803(3320KB) AllocSpace objects, 6(248KB) LOS objects, 48% free, 6434KB/12MB, paused 517us total 141.340ms
+10-25 11:51:51.399  1000  2143  6147 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+10-25 11:51:51.400  1000  2143  6147 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+10-25 11:51:51.411 10146 14897 14897 I ViewInteraction: Performing 'wait for a specific view with id <2131230969> has been displayed during 5000 millis.' action on view view.getRootView() to equal view
+10-25 11:51:51.426 10102  2824 15069 I ctxmgr  : [ProducerStatusImpl] updateStateForNewContextData: inactive, contextName=7 [CONTEXT service_id=47 ]
+10-25 11:51:51.445 10115 12076 14960 I PBSessionCacheImpl: Deleted sessionId[498334908017] from persistence.
+10-25 11:51:51.446 10102  2824 15054 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+10-25 11:51:51.447 10102  2824 15101 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+10-25 11:51:51.452 10115 12076 12131 W SearchServiceCore: Abort, client detached.
+10-25 11:51:51.463 10102  2824 15101 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+10-25 11:51:51.467 10102  2824 14986 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+10-25 11:51:51.525 10102  2824 15110 I LogUtils: [Places]: ?: PlacesBleScanner start() with priority 2 [CONTEXT service_id=253 ]
+10-25 11:51:51.526 10102  2824 15110 I PlacesLogger: [PlaceInferenceEngine]: [anon] Changed inference mode: 1 [CONTEXT service_id=253 ]
+10-25 11:51:51.531 10102  2824  2824 I BeaconBle: Client requested scan, settings=BleSettings [scanMode=ZERO_POWER, callbackType=ALL_MATCHES, reportDelayMillis=0, 1 filters, 0 clients, callingClientName=Places] [CONTEXT service_id=111 ]
+10-25 11:51:51.532 10102  2824  2824 I BeaconBle: Scan : No clients left, canceling alarm. [CONTEXT service_id=111 ]
+10-25 11:51:51.532 10102  2824  2824 E BeaconBle: Scan couldn't start for Places [CONTEXT service_id=111 ]
+10-25 11:51:51.532 10102  2824 14986 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket
+androidx.test.espresso.NoMatchingViewException: No views in hierarchy found matching: view.getId() is <2131230735/ru.iteco.fmhandroid:id/about_back_image_button>
+If the target view is not part of the view hierarchy, you may need to use Espresso.onData to load it from one of the following AdapterViews:android.widget.MenuPopupWindow$MenuDropDownListView{94dd413 VFED.VC.. .F...... 0,0-539,396}
+
+View Hierarchy:
++>PopupDecorView{id=-1, visibility=VISIBLE, width=539, height=396, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params={(44,259)(539x396) gr=TOP START CENTER DISPLAY_CLIP_VERTICAL sim={state=unchanged} ty=APPLICATION_SUB_PANEL fmt=TRANSLUCENT surfaceInsets=Rect(88, 88 - 88, 88) (manual)
+  fl=LAYOUT_NO_LIMITS ALT_FOCUSABLE_IM WATCH_OUTSIDE_TOUCH SPLIT_TOUCH HARDWARE_ACCELERATED FLAG_LAYOUT_ATTACHED_IN_DECOR
+  pfl=WILL_NOT_REPLACE_ON_RELAUNCH LAYOUT_CHILD_WINDOW_IN_PARENT_FRAME}, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=1} 
+|
++->PopupBackgroundView{id=-1, visibility=VISIBLE, width=539, height=396, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=1} 
+|
++-->MenuDropDownListView{id=-1, visibility=VISIBLE, width=539, height=396, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=true, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=3} 
+|
++--->ListMenuItemView{id=-1, visibility=VISIBLE, width=539, height=132, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.AbsListView$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2} 
+|
++---->AppCompatImageView{id=16908968, res-name=group_divider, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0} 
+|
++---->LinearLayout{id=16908290, res-name=content, visibility=VISIBLE, width=539, height=132, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2} 
+|
++----->RelativeLayout{id=-1, visibility=VISIBLE, width=451, height=59, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=44.0, y=36.0, child-count=2} 
+|
++------>MaterialTextView{id=16908310, res-name=title, visibility=VISIBLE, width=451, height=59, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.RelativeLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, text=Main, input-type=0, ime-target=false, has-links=false} 
+|
++------>MaterialTextView{id=16909351, res-name=shortcut, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.RelativeLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, text=, input-type=0, ime-target=false, has-links=false} 
+|
++----->AppCompatImageView{id=16909413, res-name=submenuarrow, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0} 
+|
++--->ListMenuItemView{id=-1, visibility=VISIBLE, width=539, height=132, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.AbsListView$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=132.0, child-count=2} 
+|
++---->AppCompatImageView{id=16908968, res-name=group_divider, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0} 
+|
++---->LinearLayout{id=16908290, res-name=content, visibility=VISIBLE, width=539, height=132, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2} 
+|
++----->RelativeLayout{id=-1, visibility=VISIBLE, width=451, height=59, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=44.0, y=36.0, child-count=2} 
+|
++------>MaterialTextView{id=16908310, res-name=title, visibility=VISIBLE, width=451, height=59, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.RelativeLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, text=News, input-type=0, ime-target=false, has-links=false} 
+|
++------>MaterialTextView{id=16909351, res-name=shortcut, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.RelativeLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, text=, input-type=0, ime-target=false, has-links=false} 
+|
++----->AppCompatImageView{id=16909413, res-name=submenuarrow, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0} 
+|
++--->ListMenuItemView{id=-1, visibility=VISIBLE, width=539, height=132, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=false, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.AbsListView$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=264.0, child-count=2} 
+|
++---->AppCompatImageView{id=16908968, res-name=group_divider, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0} 
+|
++---->LinearLayout{id=16908290, res-name=content, visibility=VISIBLE, width=539, height=132, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2} 
+|
++----->RelativeLayout{id=-1, visibility=VISIBLE, width=451, height=59, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=44.0, y=36.0, child-count=2} 
+|
++------>MaterialTextView{id=16908310, res-name=title, visibility=VISIBLE, width=451, height=59, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.RelativeLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, text=About, input-type=0, ime-target=false, has-links=false} 
+|
++------>MaterialTextView{id=16909351, res-name=shortcut, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.RelativeLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, text=, input-type=0, ime-target=false, has-links=false} 
+|
++----->AppCompatImageView{id=16909413, res-name=submenuarrow, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0} 
+The complete view hierarchy is available in artifact file 'view-hierarchy-4.txt'.
+	at androidx.test.espresso.NoMatchingViewException$Builder.build(NoMatchingViewException.java:185)
+	at androidx.test.espresso.base.DefaultFailureHandler.lambda$getNoMatchingViewExceptionTruncater$0(DefaultFailureHandler.java:93)
+	at androidx.test.espresso.base.DefaultFailureHandler$$ExternalSyntheticLambda1.truncateExceptionMessage(Unknown Source:2)
+	at androidx.test.espresso.base.ViewHierarchyExceptionHandler.handleSafely(ViewHierarchyExceptionHandler.java:72)
+	at androidx.test.espresso.base.ViewHierarchyExceptionHandler.handleSafely(ViewHierarchyExceptionHandler.java:38)
+	at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:158)
+	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:120)
+	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:385)
+	at androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:366)
+	at ru.iteco.fmhandroid.pageobjects.AboutScreen.clickReturnButton(AboutScreen.java:33)
+	at ru.iteco.fmhandroid.test.AppMainTest.shouldReturnFromAboutToNews(AppMainTest.java:89)
