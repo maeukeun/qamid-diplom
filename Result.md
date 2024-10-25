@@ -4,7 +4,7 @@
 
 При тестировании использовался подготовленный набор из 83 тест-кейсов (из них автоматизировано 20) - [Cases.xlsx](https://github.com/Ramzesito/QAMID62-diplom-Shvets/blob/main/Cases.xlsx) 
 
-В результате выявлено 12 дефектов (без критических и блокирующих) - [Bug reports.xlsx](https://github.com/Ramzesito/QAMID62-diplom-Shvets/blob/main/Bug%20reports.xlsx) .
+В результате выявлено 12 дефектов (без критических и блокирующих) - [Bug reports.xlsx](https://github.com/maeukeun/qamid-diplom/blob/main/Bug%20reports.xlsx) .
 
 Краткое описание дефектов:
 | Номер дефекта | Название                                                                                                                      | Критичность              |   Тест-кейс   |
