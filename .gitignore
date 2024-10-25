@@ -5,3 +5,4 @@ target/
 other/
 files/
 allure_backup/
+app/allure-report/
